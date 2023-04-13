@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Modul1</string>
+    <string name ="biografi">
+        Nama : Choirun Nisa\n
+        TTL : 11 Februari 2003\n
+        Alamat : Bilaporah, Bangkalan\n
+        Jurusan : Sistem Informasi\n
+        Universitas : Universitas Trunojoyo Madura\n
+        Hobi : Berenang\n
+        Cita-cita : Nikah Muda\n
+        HP : 085704385878\n
+        E-Mail : choirunnisa.cn83@gmail.com\n\n
+
+        RIWAYAT PENDIDIKAN :\n
+        1. SDN Inpres Bertingkat Halmahera Utara\n
+        2. MTsN Bangkalan\n
+        3. MAN Bangkalan\n
+        4. Universitas Trunojoyo Madura\n
+
+    </string>
+</resources>

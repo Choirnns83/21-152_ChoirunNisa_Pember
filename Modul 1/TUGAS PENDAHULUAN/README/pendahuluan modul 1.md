@@ -1,0 +1,1 @@
+Pada project ini, saya mengganti background aplikasi sesuai dengan yang diperintahkan dalam modul. Yaitu merubahan atribut background dengan color #2775A3. Selain itu saya juga merubah string 'Hello Word' menjadi 'SELAMAT DATANG DI UNIVERSITAS TRUJOYO MADURA' di bagian atribut text.
