@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3D2A8"
+    tools:context=".detail_activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cantora_one"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="20dp"
+                android:text="@string/menu"/>
+        </RelativeLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginTop="10dp">
+
+            <TableRow
+                tools:ignore="UselessParent"
+                android:layout_marginStart="5dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_column="1"
+                    android:src="@drawable/latte"
+                    android:contentDescription="@string/latte"/>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/latte"
+                    android:textAlignment="inherit"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                tools:ignore="UselessParent">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_column="1"
+                    android:src="@drawable/americano"
+                    android:contentDescription="@string/americano"/>
+
+                <TextView
+                    android:layout_width="264dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/americano"
+                    android:textAlignment="inherit"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                tools:ignore="UselessParent"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="5dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_column="1"
+                    android:src="@drawable/mocha"
+                    android:contentDescription="@string/mocha"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/mocha"
+                    android:textAlignment="inherit"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                tools:ignore="UselessParent"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="5dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_column="1"
+                    android:src="@drawable/ice_coffe"
+                    android:contentDescription="@string/ice_coffe"/>
+
+                <TextView
+                    android:layout_width="317dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/ice_coffe"
+                    android:textAlignment="inherit"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                tools:ignore="UselessParent"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="5dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_column="1"
+                    android:src="@drawable/macchiato"
+                    android:contentDescription="@string/macchiato"/>
+
+                <TextView
+                    android:layout_width="317dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/macchiato"
+                    android:textAlignment="inherit"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                tools:ignore="UselessParent"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="5dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_column="1"
+                    android:src="@drawable/cappucino"
+                    android:contentDescription="@string/cappucino"/>
+
+                <TextView
+                    android:layout_width="317dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/cappucino"
+                    android:textAlignment="inherit"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                tools:ignore="UselessParent"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="5dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_column="1"
+                    android:src="@drawable/croisent"
+                    android:contentDescription="@string/croisent"/>
+
+                <TextView
+                    android:layout_width="317dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/croisent"
+                    android:textAlignment="inherit"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                tools:ignore="UselessParent"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="5dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_column="1"
+                    android:src="@drawable/crofle"
+                    android:contentDescription="@string/croffle"/>
+
+                <TextView
+                    android:layout_width="317dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/croffle"
+                    android:textAlignment="inherit"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                tools:ignore="UselessParent"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="5dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_column="1"
+                    android:src="@drawable/donut"
+                    android:contentDescription="@string/donat"/>
+
+                <TextView
+                    android:layout_width="317dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/donat"
+                    android:textAlignment="inherit"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                tools:ignore="UselessParent"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="5dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_column="1"
+                    android:src="@drawable/pancake"
+                    android:contentDescription="@string/pancake"/>
+
+                <TextView
+                    android:layout_width="317dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/pancake"
+                    android:textAlignment="inherit"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+            </TableRow>
+        </TableLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_order2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order Now"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="200dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

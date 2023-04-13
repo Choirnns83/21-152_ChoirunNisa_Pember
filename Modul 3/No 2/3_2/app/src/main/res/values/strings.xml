@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NISA COFFE SHOP</string>
+    <string name="intro">Best Seller</string>
+    <string name="menu">DAFTAR MENU</string>
+    <string name="ice_coffe">Ice Coffe ...................... 20000</string>
+    <string name="macchiato">Macchiato ................... 25000</string>
+    <string name="latte">Latte ............................ 25000</string>
+    <string name="cappucino">Cappucino ................... 30000</string>
+    <string name="americano">Americano ................... 30000</string>
+    <string name="mocha">Mocha .......................... 25000</string>
+    <string name="pancake">Pancake ...................... 25000</string>
+    <string name="croisent">Croisent ...................... 30000</string>
+    <string name="donat">Donuts ....................... 25000</string>
+    <string name="croffle">Croffle ........................ 30000</string>
+</resources>
