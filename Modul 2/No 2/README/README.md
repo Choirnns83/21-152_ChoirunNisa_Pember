@@ -1,1 +1,0 @@
-Program tersebut menggunakan recyclerview. Recyclerview ditempatkan di main layout, sedangkan di bagian detail layout digunakan komponen cardview untuk mengatur letak tiap gambar dan teks. Untuk menampilkannya, data tersebut disimpan terlebih dahulu kedalam variabel array dan menghubungkannya dengan recyclerview. Pada program ini juga digunakan komponen scrollview
