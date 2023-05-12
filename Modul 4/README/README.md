@@ -1,0 +1,1 @@
+Program ini menggunakan dua fragment dalam satu activity. Fragment yang pertama dapat mengirim suatu data berupa string ke fragment yang kedua dengan menekan button. Data tersebut diinputkan pada kolom nama yang menggunakan edittext kemudian ditampilkan pada fragment kedua menggunakan textview. Pada fragment kedua terdapat button untuk kembali ke fragment pertama.
